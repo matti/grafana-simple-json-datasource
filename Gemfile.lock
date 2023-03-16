@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    byebug (10.0.0)
     coderay (1.1.2)
     ffi (1.9.23)
     formatador (0.2.5)
@@ -32,10 +31,7 @@ GEM
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    pry-byebug (3.6.0)
-      byebug (~> 10.0)
-      pry (~> 0.10)
-    rack (2.0.4)
+    rack (2.2.6.4)
     rack-protection (2.0.1)
       rack
     rb-fsevent (0.10.2)
@@ -59,7 +55,6 @@ PLATFORMS
 DEPENDENCIES
   guard
   guard-shotgun
-  pry-byebug
   sinatra
 
 BUNDLED WITH
